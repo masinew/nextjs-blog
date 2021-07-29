@@ -15,9 +15,11 @@
     "@types/react-dom": "^16.9.14",
     "@types/react-redux": "^7.1.18",
     "@types/sass": "^1.16.1",
+    "autoprefixer": "^10.3.1",
     "date-fns": "^2.23.0",
     "gray-matter": "^4.0.3",
     "next": "^11.0.1",
+    "postcss": "^8.3.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.11.1",
@@ -36,7 +38,8 @@
     "eject_old": "react-scripts eject",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-next": "^11.0.1"
   }
 }
